@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SportsHub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">SportsHub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="basketball.html">Basketball</a></li>
+            <li><a href="cricket.html">Cricket</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <!-- Hero Section (Smaller for Contact) -->
+    <header class="hero"
+        style="height: 50vh; background-image: url('https://images.unsplash.com/photo-1516387938699-a93567ec168e?auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p class="tagline">We'd love to hear from you</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="container">
+        <div class="contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2 style="margin-bottom: 2rem; color: var(--primary-color);">Contact Information</h2>
+                <div class="contact-info-item">
+                    <h3>Address</h3>
+                    <p>123 Sports Avenue, Athletic City, SP 80808</p>
+                </div>
+                <div class="contact-info-item">
+                    <h3>Email</h3>
+                    <p>support@sportshub.com</p>
+                    <p>press@sportshub.com</p>
+                </div>
+                <div class="contact-info-item">
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="contact-info-item">
+                    <h3>Office Hours</h3>
+                    <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    <p>Sat: 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2 style="margin-bottom: 2rem; color: var(--primary-color);">Send us a Message</h2>
+                <form class="contact-form">
+                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email
+                        Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+
+                    <label for="subject"
+                        style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Inquiry about..." required>
+
+                    <label for="message"
+                        style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+
+                    <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send
+                        Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>About SportsHub</h3>
+                <p>Your premier destination for all things sports. We bring you the latest news, scores, and updates
+                    from around the world.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="basketball.html">Basketball</a></li>
+                    <li><a href="cricket.html">Cricket</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 SportsHub. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
